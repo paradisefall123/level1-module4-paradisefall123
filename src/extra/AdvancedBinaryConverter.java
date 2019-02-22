@@ -94,7 +94,6 @@ public class AdvancedBinaryConverter implements ActionListener {
 			
 			// OPTIONAL: Create your own methods to convert binary to decimal (base 10) and
 			//           binary to hexidecimal (base 16) without using the Integer.parseInt() method!
-		}
 	}
 
 	void addObjectToPanel(JComponent component, int row, int column, int cellWidth) {
