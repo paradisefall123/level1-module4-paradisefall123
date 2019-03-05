@@ -1,7 +1,7 @@
 
 
 /*
- *    Copyright (c) The League of Amazing Programmers 2013-2018
+ *    Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1
  */
 
@@ -28,7 +28,6 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 
-
 /* Check out the Jeopardy Handout to see what the end result should look like: http://bit.ly/1bvnvd4 */
 
 public class Jeopardy implements ActionListener {
@@ -41,11 +40,9 @@ public class Jeopardy implements ActionListener {
 	private int buttonCount = 0;
 	private AudioClip sound;
 
-	public static void main(String[] args) {
-		new Jeopardy().start();
-	}
 
-	private void start() {
+
+	public void run() {
 		JFrame frame = new JFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		quizPanel = new JPanel();
