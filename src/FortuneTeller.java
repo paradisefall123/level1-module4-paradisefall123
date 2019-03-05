@@ -1,6 +1,6 @@
 
 /*
- *    Copyright (c) The League of Amazing Programmers 2013-2018
+ *    Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1
  */
 
@@ -24,20 +24,18 @@ public class FortuneTeller extends JPanel implements Runnable, MouseListener {
     JFrame frame = new JFrame();
 
     int frameWidth = 500;
-    int frameHeight = 400;
+    int frameHeight = 500;
 
     FortuneTeller() throws Exception {
    	 // 1. Choose an image for your fortune teller and put it in your default package
    	 fortuneTellerImage = ImageIO.read(getClass().getResource("fortune teller.png"));
    	 // 2. Adjust the frameWidth and frameHeight variables to fit your image nicely (doesn’t need a new line of code)
-   	 // 4. add a mouse listener to the frame
+     // 3. Complete the begin() method in the FortuneTellerRunner class
+ 	 // 4. add a mouse listener to the frame
 
     }
 
-    static void begin() {
-   	 // 3. Welcome the user. Give them a hint for the secret location.
 
-    }
 
     @Override
     public void mousePressed(MouseEvent e) {
@@ -81,10 +79,7 @@ public class FortuneTeller extends JPanel implements Runnable, MouseListener {
     
     BufferedImage fortuneTellerImage;
 
-    public static void main(String[] args) throws Exception {
-   	 SwingUtilities.invokeLater(new FortuneTeller());
-   	 begin();
-    }
+
 
     @Override
     public void run() {
