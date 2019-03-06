@@ -1,6 +1,6 @@
 
 /*
- *    Copyright (c) The League of Amazing Programmers 2013-2018
+ *    Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1
  */
 
@@ -16,19 +16,9 @@ import javax.swing.JLabel;
 
 public class BookOfIllusions extends MouseAdapter {
 
-	/*
-	 * Here we are instantiating our BookOfIllusions class and calling it’s createBook() method. This is because we want to get out of the
-	 * static main method, so that we can add a click listener to each illusion.
-	 */
-
-	public static void main(String[] args) throws Exception {
-		BookOfIllusions illusions = new BookOfIllusions();
-		illusions.createBook();
-	}
-
 	// 1. Make a JFrame variable and initialize it using "new JFrame()"
 
-	private void createBook() {
+	public void run() {
 		// 2. make the frame visible
 		// 3. set the size of the frame
 		// 4. find 2 images and save them to your project’s default package
