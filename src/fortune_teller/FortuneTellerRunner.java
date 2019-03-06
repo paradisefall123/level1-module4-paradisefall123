@@ -1,3 +1,4 @@
+package fortune_teller;
 import javax.swing.SwingUtilities;
 
 /*
