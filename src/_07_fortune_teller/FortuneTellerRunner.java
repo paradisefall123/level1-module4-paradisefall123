@@ -1,4 +1,4 @@
-package fortune_teller;
+package _07_fortune_teller;
 import javax.swing.SwingUtilities;
 
 /*

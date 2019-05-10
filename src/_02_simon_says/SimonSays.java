@@ -1,4 +1,4 @@
-package simon_says;
+package _02_simon_says;
 
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2019
