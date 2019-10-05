@@ -33,23 +33,10 @@ public class NastySurprise implements ActionListener {
 		rightButton.addActionListener(this);
 		panel.add(rightButton);
 		panel.add(leftButton);
-		frame.pack();
 		frame.setTitle("Trick or Treat");
-
+		frame.pack();
 	}
-
-	@Override
-	public void actionPerformed(ActionEvent arg0) {
-		// TODO Auto-generated method stub
-		JButton buttonPressed = (JButton) arg0.getSource();
-		if(buttonPressed.getName().equals("rightbutton")) {
-			leftButton.showPictureFromTheInternet(http://4.bp.blogspot.com/_NLdfbB4o7jA/TLuxUEqSA0I/AAAAAAAAAB0/z2VOWpFkETU/s1600/flower-dog.jpg);
-			
-			
-		}
-	}
-
-	private void showPictureFromTheInternet(String imageUrl) {
+	public void showPictureFromTheInternet(String imageUrl) {
 		try {
 			URL url = new URL(imageUrl);
 			Icon icon = new ImageIcon(url);
@@ -62,5 +49,21 @@ public class NastySurprise implements ActionListener {
 			e.printStackTrace();
 		}
 	}
+
+
+
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO Auto-generated method stub
+		JButton buttonPressed = (JButton) arg0.getSource();
+		if(buttonPressed.getName().equals("rightbutton")) {
+			showPictureFromTheInternet("https://scstylecaster.files.wordpress.com/2017/01/arthur.jpg");
+		}else{
+			showPictureFromTheInternet("https://i.pinimg.com/originals/fd/5a/af/fd5aafab785adeb9cfe4b6ed89405b20.jpg");
+		}
+	}
+
+
 
 }
