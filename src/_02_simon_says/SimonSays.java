@@ -57,40 +57,14 @@ public class SimonSays extends KeyAdapter {
         // 15. Make a points variable to track the score.
 
         // 16. If the keyCode matches the imageIndex and "Simon says"
-        if (KeyEvent.VK_UP == imageIndex && simonSays) {
+        if (e.getKeyCode() ==imageIndex && simonSays ) {
             score += 1;
             speak("You are correct!");
             System.out.println(score);
 
             frame.dispose();
             showImage();
-            frame.add(getNextRandomImage());
-        } else if (KeyEvent.VK_DOWN == imageIndex && simonSays) {
-            score += 1;
-            speak("You are correct!");
 
-            System.out.println(score);
-            frame.dispose();
-            showImage();
-
-            frame.add(getNextRandomImage());
-        } else if (KeyEvent.VK_LEFT == imageIndex && simonSays) {
-            score += 1;
-            speak("You are correct!");
-
-            System.out.println(score);
-            frame.dispose();
-            showImage();
-
-            frame.add(getNextRandomImage());
-        } else if (KeyEvent.VK_RIGHT == imageIndex && simonSays) {
-            score += 1;
-            speak("You are correct!");
-
-            System.out.println(score);
-            frame.dispose();
-            showImage();
-            frame.add(getNextRandomImage());
         }
         // 17. Increase the value of score
 
@@ -98,65 +72,43 @@ public class SimonSays extends KeyAdapter {
 
         // 19. If the keyCode doesn't match the imageIndex and "Simon didn't
         // say..."
-       else if (KeyEvent.VK_DOWN != imageIndex && simonSays==false) {
+        else if (e.getKeyCode() != imageIndex && simonSays==false) {
             score += 1;
             speak("You are correct!");
 
             System.out.println(score);
             frame.dispose();
             showImage();
-            frame.add(getNextRandomImage());
-        } else if (KeyEvent.VK_UP != imageIndex && simonSays==false) {
-            score += 1;
-            speak("You are correct!");
 
-            System.out.println(score);
-            frame.dispose();
-            showImage();
-            frame.add(getNextRandomImage());
-        } else if (KeyEvent.VK_LEFT != imageIndex && simonSays==false) {
-            score += 1;
-            speak("You are correct!");
 
-            System.out.println(score);
-            frame.dispose();
-            showImage();
-            frame.add(getNextRandomImage());
-        } else if (KeyEvent.VK_RIGHT != imageIndex && simonSays==false) {
-            score += 1;
-            speak("You are correct!");
-            System.out.println(score);
-
-            frame.dispose();
-            showImage();
-            frame.add(getNextRandomImage());
-        }else {
+        } else {
             tries++;
             speak("You are incorrect!");
             frame.dispose();
             showImage();
-            frame.add(getNextRandomImage());
+
         }
-            // 20. Increase the value of score
-            if (tries == 2) {
-                JOptionPane.showMessageDialog(null, "This is your score " + score);
-                frame.dispose();
-                showImage();
-            }
-            // 21. Use the speak method to tell the user they were correct
+        // 20. Increase the value of score
+        if (tries == 5) {
+            JOptionPane.showMessageDialog(null, "This is your score " + score);
+            frame.dispose();
+            showImage();
 
-            // 22. Increment tries by 1
-
-            // 25. If tries is greater than 9 (or however many you want)...
-
-            // 26. Tell the user their score
-
-            // 27. Exit the program
-
-            // 23. Dispose of the frame
-
-            // 24. Call the showImage method to show a new image
         }
+        // 21. Use the speak method to tell the user they were correct
+
+        // 22. Increment tries by 1
+
+        // 25. If tries is greater than 9 (or however many you want)...
+
+        // 26. Tell the user their score
+
+        // 27. Exit the program
+
+        // 23. Dispose of the frame
+
+        // 24. Call the showImage method to show a new image
+    }
 
 
     private void showImage() {
