@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1cced4f-89ff-4908-9d9a-5f2806986c5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/_05_typing_tutor/TypingTutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_typing_tutor/TypingTutorRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_04_chuckle_clicker/ChuckleClicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04_chuckle_clicker/ChuckleClicker.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChuckleClicker">
+  <component name="RunManager" selected="Application.TypingTutor">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -96,6 +97,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypingTutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_05_typing_tutor.TypingTutor" />
+      <module name="Level1-Module4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_05_typing_tutor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -129,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TypingTutor" />
         <item itemvalue="Application.ChuckleClicker" />
         <item itemvalue="Application.SimonSaysRunner" />
         <item itemvalue="Application.JeopardyRunner" />
