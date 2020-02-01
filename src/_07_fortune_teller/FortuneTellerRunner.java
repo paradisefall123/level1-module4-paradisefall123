@@ -1,5 +1,5 @@
 package _07_fortune_teller;
-import javax.swing.SwingUtilities;
+import javax.swing.*;
 
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2019
@@ -14,6 +14,6 @@ public class FortuneTellerRunner {
     
     static void begin() {
       	 // Welcome the user. Give them a hint for the secret location.
-
+        JOptionPane.showMessageDialog(null, "Welcome, I have been expecting you. Find the secret location near my hands.");
     }
 }
