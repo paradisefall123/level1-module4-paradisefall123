@@ -17,7 +17,7 @@ public class Magic8Ball {
         // 3. Print out this variable
         System.out.println(random);
         // 4. Get the user to enter a question for the 8 ball
-        JOptionPane.showInputDialog("Please repeat your question. Make sure it is a yes or no question.");
+        JOptionPane.showInputDialog("Please repeat your question. Make sure it's a yes or no question.");
         // 5. If the random number is 0
         if(random==0){
             JOptionPane.showMessageDialog(null,"Yes");
