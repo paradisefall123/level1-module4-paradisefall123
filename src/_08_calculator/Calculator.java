@@ -10,11 +10,27 @@ public class Calculator implements ActionListener {
         JPanel panel=new JPanel();
         JButton addition=new JButton();
         JButton subtraction = new JButton();
+        JButton multiply=new JButton();
+        JButton divide=new JButton();
+        JTextField one=new JTextField();
+        JTextField two=new JTextField();
         frame.setVisible(true);
         frame.setTitle("Simple Calculator");
         panel.add(addition);
+        panel.add(multiply);
+        panel.add(subtraction);
+        panel.add(divide);
+        panel.add(one);
+        panel.add(two);
+
+        multiply.setText("Mul");
+        divide.setText("Div");
+        subtraction.setText("Sub");
         addition.setText("Add");
-        //addition.addActionListener(this);
+        subtraction.addActionListener(this);
+        divide.addActionListener(this);
+        multiply.addActionListener(this);
+        addition.addActionListener(this);
         frame.add(panel);
         frame.pack();
     }
