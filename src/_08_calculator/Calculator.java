@@ -29,7 +29,7 @@ public class Calculator implements ActionListener {
         panel.add(divide);
         answer.add(label);
         panel.add(answer);
-        
+
 
         multiply.setText("Mul");
         divide.setText("Div");
