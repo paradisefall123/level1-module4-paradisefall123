@@ -11,8 +11,9 @@ public class WhackAMole implements ActionListener {
     private JPanel panel;
     private String s;
     private int num;
+    private JFrame frame;
     public void run() {
-        JFrame frame = new JFrame();
+        frame = new JFrame();
         panel = new JPanel();
         frame.add(panel);
         frame.setTitle("Whack a Button for Fame and Glory");
@@ -21,14 +22,17 @@ public class WhackAMole implements ActionListener {
         num= ran.nextInt(24);
         frame.setVisible(true);
         drawButtons(num);
+        frame.validate();
     }
 
     public void drawButtons( int num) {
-        for (int i = 0; i < 24; i++) {
-            JButton button = new JButton();
+        for (int i = 1; i < 25; i++) {
+            s=Integer.toString(i);
+            JButton button = new JButton(s);
             button.addActionListener(this);
-             s=Integer.toString(i);
-            button.setActionCommand(s);
+            System.out.println("draw button; "+i);
+
+           button.setActionCommand(s);
             panel.add(button);
         }
 
@@ -43,6 +47,7 @@ public class WhackAMole implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
+        System.out.println("Pressed!");
     int p=Integer.parseInt(s);
    //if(){
 

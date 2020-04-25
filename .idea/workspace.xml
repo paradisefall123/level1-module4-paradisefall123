@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1cced4f-89ff-4908-9d9a-5f2806986c5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_09_latest_tweet/GetLatestTweet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_09_latest_tweet/GetLatestTweetRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_pig_latin/PigLatinTranslator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_pig_latin/PigLatinTranslatorRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_11_whack_a_mole/WhackAMoleRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level1-Module4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Level1-Module4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_08_calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_08_calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_10_pig_latin/PigLatin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10_pig_latin/PigLatin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_11_whack_a_mole/WhackAMole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_whack_a_mole/WhackAMole.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +23,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="wendygonzalez &lt;paradisewendy123@gmail.com&gt;&lt;paradisewendy123@gmail.com&gt;" />
         <option value="wendygonzalez &lt;paradisewendy123@gmail.com&gt;" />
       </list>
     </option>
@@ -200,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586629806908</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I need to finish whack a mole.">
+      <created>1587234414804</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587234414809</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,40 +233,57 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="I finished pig latin and I am doing whack a mole." />
-    <option name="LAST_COMMIT_MESSAGE" value="I finished pig latin and I am doing whack a mole." />
+    <MESSAGE value="I need to finish whack a mole." />
+    <option name="LAST_COMMIT_MESSAGE" value="I need to finish whack a mole." />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="93" width="364" height="521" key="#com.intellij.ide.util.MemberChooser" timestamp="1587230457653">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="93" width="364" height="521" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1587230457653" />
-    <state x="254" y="0" width="848" height="688" key="CommitChangelistDialog2" timestamp="1586629802274">
+    <state x="254" y="0" width="838" height="658" key="CommitChangelistDialog2" timestamp="1587234411149">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="254" y="0" width="848" height="688" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1586629802274" />
-    <state width="1366" height="135" key="GridCell.Tab.0.bottom" timestamp="1587233392876">
+    <state x="254" y="0" width="838" height="658" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1587234411149" />
+    <state width="1068" height="32" key="GridCell.Tab.0.bottom" timestamp="1587836983511">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1366" height="135" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587233392876" />
-    <state width="1366" height="135" key="GridCell.Tab.0.center" timestamp="1587233392868">
+    <state width="1068" height="32" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587836983511" />
+    <state width="1068" height="32" key="GridCell.Tab.0.center" timestamp="1587836983499">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1366" height="135" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1587233392868" />
-    <state width="1366" height="135" key="GridCell.Tab.0.left" timestamp="1587233392864">
+    <state width="1068" height="32" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1587836983499" />
+    <state width="1068" height="32" key="GridCell.Tab.0.left" timestamp="1587836983490">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1366" height="135" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1587233392864" />
-    <state width="1366" height="135" key="GridCell.Tab.0.right" timestamp="1587233392873">
+    <state width="1068" height="32" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1587836983490" />
+    <state width="1068" height="32" key="GridCell.Tab.0.right" timestamp="1587836983509">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1366" height="135" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1587233392873" />
-    <state x="278" y="120" width="800" height="498" key="Vcs.Push.Dialog.v2" timestamp="1586629816461">
+    <state width="1068" height="32" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1587836983509" />
+    <state width="1366" height="38" key="GridCell.Tab.1.bottom" timestamp="1587835394830">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="120" width="800" height="498" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1586629816461" />
-    <state x="343" y="211" width="660" height="285" key="com.intellij.ide.util.TipDialog" timestamp="1587228400687">
+    <state width="1366" height="38" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587835394830" />
+    <state width="1366" height="38" key="GridCell.Tab.1.center" timestamp="1587835394785">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="343" y="211" width="660" height="285" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587228400687" />
+    <state width="1366" height="38" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1587835394785" />
+    <state width="1366" height="38" key="GridCell.Tab.1.left" timestamp="1587835394766">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="38" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1587835394766" />
+    <state width="1366" height="38" key="GridCell.Tab.1.right" timestamp="1587835394810">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="38" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1587835394809" />
+    <state x="278" y="120" width="800" height="498" key="Vcs.Push.Dialog.v2" timestamp="1587234425245">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="278" y="120" width="800" height="498" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1587234425245" />
+    <state x="343" y="211" width="660" height="285" key="com.intellij.ide.util.TipDialog" timestamp="1587833370424">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="343" y="211" width="660" height="285" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587833370424" />
   </component>
 </project>
