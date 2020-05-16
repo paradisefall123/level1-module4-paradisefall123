@@ -1,8 +1,10 @@
 package _11_whack_a_mole;
 
 import javax.swing.*;
+import java.applet.AudioClip;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Date;
 import java.util.Random;
 
 public class WhackAMole implements ActionListener {
@@ -37,7 +39,6 @@ public class WhackAMole implements ActionListener {
                 button = new JButton(s);
             }
             button.addActionListener(this);
-            System.out.println("draw button; " + i);
 
             button.setActionCommand(s);
             panel.add(button);
@@ -45,27 +46,27 @@ public class WhackAMole implements ActionListener {
         }
     }
 
-    void speak(String words) {
-        try {
-            Runtime.getRuntime().exec("say " + words).waitFor();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+
     private void playSound(String fileName) {
         AudioClip sound = JApplet.newAudioClip(getClass().getResource(fileName));
         sound.play();
+    }
+    private void endGame(Date timeAtStart, int molesWhacked) {
+        Date timeAtEnd = new Date();
+        JOptionPane.showMessageDialog(null, "Your whack rate is "
+                + ((timeAtEnd.getTime() - timeAtStart.getTime()) / 1000.00 / molesWhacked)
+                + " moles per second.");
     }
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         System.out.println("Pressed!");
         int p = Integer.parseInt(s);
         if(p!=num){
-        speak("Wrong");
+        JOptionPane.showMessageDialog(null, "Missed!");
         frame.dispose();
         run();
-        }else if(p==num ){
-
+        }else{
+        JOptionPane.showMessageDialog(null, "Yay!");
         }
     }
 }
