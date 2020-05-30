@@ -214,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589048818949</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="I need to finish whack a mole.">
+      <created>1589653584714</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589653584717</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,26 +262,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="93" width="364" height="521" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1587230457653" />
-    <state x="254" y="0" width="818" height="598" key="CommitChangelistDialog2" timestamp="1589048815574">
+    <state x="254" y="0" width="808" height="568" key="CommitChangelistDialog2" timestamp="1589653577457">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="254" y="0" width="818" height="598" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589048815574" />
-    <state width="1015" height="121" key="GridCell.Tab.0.bottom" timestamp="1589653132649">
+    <state x="254" y="0" width="808" height="568" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589653577457" />
+    <state width="1366" height="121" key="GridCell.Tab.0.bottom" timestamp="1590862484994">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1015" height="121" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1589653132649" />
-    <state width="1015" height="121" key="GridCell.Tab.0.center" timestamp="1589653132624">
+    <state width="1366" height="121" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590862484994" />
+    <state width="1366" height="121" key="GridCell.Tab.0.center" timestamp="1590862484989">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1015" height="121" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1589653132624" />
-    <state width="1015" height="121" key="GridCell.Tab.0.left" timestamp="1589653132614">
+    <state width="1366" height="121" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590862484989" />
+    <state width="1366" height="121" key="GridCell.Tab.0.left" timestamp="1590862484984">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1015" height="121" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1589653132614" />
-    <state width="1015" height="121" key="GridCell.Tab.0.right" timestamp="1589653132634">
+    <state width="1366" height="121" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590862484984" />
+    <state width="1366" height="121" key="GridCell.Tab.0.right" timestamp="1590862484991">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1015" height="121" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1589653132634" />
+    <state width="1366" height="121" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590862484991" />
     <state width="1366" height="38" key="GridCell.Tab.1.bottom" timestamp="1587839385241">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -291,24 +298,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="38" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1587839385239" />
-    <state x="278" y="120" width="800" height="498" key="Vcs.Push.Dialog.v2" timestamp="1589048827964">
+    <state x="278" y="120" width="800" height="498" key="Vcs.Push.Dialog.v2" timestamp="1589653597258">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="120" width="800" height="498" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589048827964" />
-    <state x="343" y="211" width="650" height="255" key="com.intellij.ide.util.TipDialog" timestamp="1589647572035">
+    <state x="278" y="120" width="800" height="498" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589653597258" />
+    <state x="343" y="211" width="650" height="255" key="com.intellij.ide.util.TipDialog" timestamp="1590857019933">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="343" y="211" width="650" height="255" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1589647572035" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/_11_whack_a_mole/WhackAMole.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="343" y="211" width="650" height="255" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1590857019933" />
   </component>
 </project>
