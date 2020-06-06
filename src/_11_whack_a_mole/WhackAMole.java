@@ -55,15 +55,27 @@ public class WhackAMole implements ActionListener {
                 + ((timeAtEnd.getTime() - timeAtStart.getTime()) / 1000.00 / molesWhacked)
                 + " moles per second.");
     }
+    private void missedComments(int rancom){
 
+        if(rancom==1){
+            JOptionPane.showMessageDialog(null, "You will get it next time!");
+        }
+        else if (rancom==2){
+            JOptionPane.showMessageDialog(null, "Missed");
+        }
+        else if (rancom==3){
+            JOptionPane.showMessageDialog(null,"Nice try!");
+        }else{
+            JOptionPane.showMessageDialog(null,"Better luck next time!");
+        }
+    }
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         System.out.println("Pressed! "+actionEvent.getActionCommand());
-       Random missedcom=new Random(4);
-
+        int rancom = new Random().nextInt(4);
         int button = Integer.parseInt(actionEvent.getActionCommand());
         if (button!= nummole) {
-            JOptionPane.showMessageDialog(null, "Missed!");
+           missedComments(rancom);
             missed++;
             frame.dispose();
             run();
@@ -74,13 +86,13 @@ public class WhackAMole implements ActionListener {
             run();
         }
         if(missed==5){
-        JOptionPane.showMessageDialog(null,"You have lost!");
+        JOptionPane.showMessageDialog(null,"You lost!");
         frame.dispose();
         }
 
-        else if(count==10){
+        else if(count==8){
             endGame(timestart,count);
-
+            frame.dispose();
         }
     }
 }
