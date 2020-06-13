@@ -90,7 +90,7 @@ public class WhackAMole implements ActionListener {
         frame.dispose();
         }
 
-        else if(count==8){
+        else if(count==5){
             endGame(timestart,count);
             frame.dispose();
         }
