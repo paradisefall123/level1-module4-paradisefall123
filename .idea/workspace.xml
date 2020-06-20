@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1cced4f-89ff-4908-9d9a-5f2806986c5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_11_whack_a_mole/SlotMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_11_whack_a_mole/SlotMachineRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_11_whack_a_mole/WhackAMole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_whack_a_mole/WhackAMole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_11_whack_a_mole/SlotMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_whack_a_mole/SlotMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_11_whack_a_mole/SlotMachineRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_whack_a_mole/SlotMachineRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,23 +58,9 @@
       <recent name="$PROJECT_DIR$/src/_06_book_of_illusions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WhackAMoleRunner">
+  <component name="RunManager" selected="Application.SlotMachineRunner">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetLatestTweetRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_09_latest_tweet.GetLatestTweetRunner" />
-      <module name="Level1-Module4" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_09_latest_tweet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,6 +86,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_10_pig_latin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlotMachineRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_11_whack_a_mole.SlotMachineRunner" />
+      <module name="Level1-Module4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_11_whack_a_mole.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SlotMachineRunner" />
         <item itemvalue="Application.WhackAMoleRunner" />
         <item itemvalue="Application.PigLatinRunner" />
         <item itemvalue="Application.TypingTutorRunner" />
         <item itemvalue="Application.PigLatinTranslatorRunner" />
-        <item itemvalue="Application.GetLatestTweetRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591468184665</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="I finshed whack a mole and need to finish slot machine.">
+      <created>1592072826626</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592072826627</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,37 +279,38 @@
     <MESSAGE value="I need to finish whack a mole." />
     <MESSAGE value="I am almost finshed with whack a mole." />
     <MESSAGE value="I just have to show whack a mole to everyone." />
-    <option name="LAST_COMMIT_MESSAGE" value="I just have to show whack a mole to everyone." />
+    <MESSAGE value="I finshed whack a mole and need to finish slot machine." />
+    <option name="LAST_COMMIT_MESSAGE" value="I finshed whack a mole and need to finish slot machine." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="93" width="364" height="521" key="#com.intellij.ide.util.MemberChooser" timestamp="1587230457653">
+    <state x="491" y="93" width="354" height="491" key="#com.intellij.ide.util.MemberChooser" timestamp="1592674811788">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="491" y="93" width="364" height="521" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1587230457653" />
-    <state x="254" y="0" width="798" height="538" key="CommitChangelistDialog2" timestamp="1591468179246">
+    <state x="491" y="93" width="354" height="491" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1592674811788" />
+    <state x="254" y="0" width="788" height="508" key="CommitChangelistDialog2" timestamp="1592072824052">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="254" y="0" width="798" height="538" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1591468179246" />
+    <state x="254" y="0" width="788" height="508" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1592072824052" />
     <state x="452" y="112" width="452" height="513" key="FileChooserDialogImpl" timestamp="1591468109179">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="452" y="112" width="452" height="513" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1591468109179" />
-    <state width="820" height="121" key="GridCell.Tab.0.bottom" timestamp="1592069106653">
+    <state width="1167" height="121" key="GridCell.Tab.0.bottom" timestamp="1592676687442">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="820" height="121" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1592069106653" />
-    <state width="820" height="121" key="GridCell.Tab.0.center" timestamp="1592069106637">
+    <state width="1167" height="121" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1592676687442" />
+    <state width="1167" height="121" key="GridCell.Tab.0.center" timestamp="1592676687438">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="820" height="121" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1592069106637" />
-    <state width="820" height="121" key="GridCell.Tab.0.left" timestamp="1592069106627">
+    <state width="1167" height="121" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1592676687438" />
+    <state width="1167" height="121" key="GridCell.Tab.0.left" timestamp="1592676687434">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="820" height="121" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1592069106627" />
-    <state width="820" height="121" key="GridCell.Tab.0.right" timestamp="1592069106643">
+    <state width="1167" height="121" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1592676687434" />
+    <state width="1167" height="121" key="GridCell.Tab.0.right" timestamp="1592676687440">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="820" height="121" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1592069106643" />
+    <state width="1167" height="121" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1592676687440" />
     <state width="1366" height="38" key="GridCell.Tab.1.bottom" timestamp="1587839385241">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -320,13 +327,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="38" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1587839385239" />
-    <state x="278" y="120" width="790" height="468" key="Vcs.Push.Dialog.v2" timestamp="1591468198538">
+    <state x="278" y="120" width="780" height="438" key="Vcs.Push.Dialog.v2" timestamp="1592072836199">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="120" width="790" height="468" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1591468198538" />
-    <state x="343" y="211" width="630" height="195" key="com.intellij.ide.util.TipDialog" timestamp="1592066716664">
+    <state x="278" y="120" width="780" height="438" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1592072836199" />
+    <state x="343" y="211" width="620" height="165" key="com.intellij.ide.util.TipDialog" timestamp="1592671985868">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="343" y="211" width="630" height="195" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1592066716664" />
+    <state x="343" y="211" width="620" height="165" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1592671985868" />
   </component>
 </project>
