@@ -8,24 +8,30 @@ import java.net.URL;
 
 public class SlotMachine implements ActionListener {
     JLabel fruit;
+    JLabel tree;
+    JLabel number;
     public void run() throws MalformedURLException {
         JFrame frame = new JFrame();
         JPanel panel = new JPanel();
         frame.setVisible(true);
-        frame.setSize(500, 500);
+      //  frame.setSize(600, 600);
         frame.add(panel);
         JButton spinButton = new JButton();
         panel.add(spinButton);
         spinButton.setText("SPIN");
         spinButton.addActionListener(this);
-        String cherry="cherry.jpg";
+        String cherry="cherry (1).jpg";
         String leaf="leaf.jpeg";
         String seven="seven.jpeg";
         fruit=createLabelImage(cherry);
+        
+        tree=createLabelImage(leaf);
+        number=createLabelImage(seven);
+
         panel.add(fruit);
-        //createLabelImage("cherry");
-        //createLabelImage("leaf.jpeg");
-        //createLabelImage("seven.jpeg");
+      panel.add(tree);
+       panel.add(number);
+        frame.pack();
     }
 
     private JLabel createLabelImage(String fileName) throws MalformedURLException {

@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f92b64d4-be9c-455f-b2c4-81cf97ca872d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_12_slot_machine/cherry.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_slot_machine/cherry (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_slot_machine/leaf.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_slot_machine/seven.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level1-Module4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Level1-Module4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/Recipes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_01_nasty_surprise/recipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_02_simon_says/down.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_02_simon_says/left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_02_simon_says/right.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_02_simon_says/up.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_03_jeopardy/jeopardy.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_03_jeopardy/recipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_04_chuckle_clicker/recipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_05_typing_tutor/recipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_07_fortune_teller/creepy-noise.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_07_fortune_teller/fortune teller.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_08_calculator/recipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_09_latest_tweet/recipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_10_pig_latin/recipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_11_whack_a_mole/recipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_12_slot_machine/recipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_13_online_practice_quiz/recipe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/level1-module4-paradisefall123/_99_extra/README.MD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_11_whack_a_mole/SlotMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_12_slot_machine/SlotMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_11_whack_a_mole/SlotMachineRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_12_slot_machine/SlotMachineRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_12_slot_machine/SlotMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_12_slot_machine/SlotMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_12_slot_machine/cherry.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +15,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="wendygonzalez &lt;paradisewendy123@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dujYeSRt8grNtPBTQaA9NKjiEZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_12_slot_machine" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -86,6 +73,57 @@
       <option name="presentableId" value="Default" />
       <updated>1593281920429</updated>
     </task>
+    <task id="LOCAL-00001" summary="I need to finish slot machine.">
+      <created>1593282625552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593282625553</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="I need to finish slot machine." />
+    <option name="LAST_COMMIT_MESSAGE" value="I need to finish slot machine." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="438" y="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1595093278103">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="438" y="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.768@0.0.1366.768" timestamp="1595093278103" />
+    <state x="247" y="0" width="862" height="688" key="CommitChangelistDialog2" timestamp="1593282621930">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="247" y="0" width="862" height="688" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1593282621930" />
+    <state x="466" y="142" width="424" height="454" key="FileChooserDialogImpl" timestamp="1595092761056">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="466" y="142" width="424" height="454" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1595092761056" />
+    <state width="1240" height="21" key="GridCell.Tab.0.bottom" timestamp="1595096720516">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1240" height="21" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595096720516" />
+    <state width="1240" height="21" key="GridCell.Tab.0.center" timestamp="1595096720501">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1240" height="21" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595096720501" />
+    <state width="1240" height="21" key="GridCell.Tab.0.left" timestamp="1595096720473">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1240" height="21" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595096720473" />
+    <state width="1240" height="21" key="GridCell.Tab.0.right" timestamp="1595096720513">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1240" height="21" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595096720513" />
+    <state x="278" y="120" width="800" height="498" key="Vcs.Push.Dialog.v2" timestamp="1593282634070">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="278" y="120" width="800" height="498" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1593282634070" />
+    <state x="343" y="211" width="660" height="285" key="com.intellij.ide.util.TipDialog" timestamp="1595089225141">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="343" y="211" width="660" height="285" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1595089225141" />
   </component>
 </project>
