@@ -5,6 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Random;
 
 public class SlotMachine implements ActionListener {
     JLabel fruit;
@@ -14,23 +15,33 @@ public class SlotMachine implements ActionListener {
         JFrame frame = new JFrame();
         JPanel panel = new JPanel();
         frame.setVisible(true);
-      //  frame.setSize(600, 600);
         frame.add(panel);
         JButton spinButton = new JButton();
         panel.add(spinButton);
         spinButton.setText("SPIN");
         spinButton.addActionListener(this);
-        String cherry="cherry (1).jpg";
+        String cherry="cherry.jpg";
         String leaf="leaf.jpeg";
         String seven="seven.jpeg";
         fruit=createLabelImage(cherry);
-        
         tree=createLabelImage(leaf);
         number=createLabelImage(seven);
+        Random slots= new Random();
+        int order=slots.nextInt(2);
+        if(order==0){
+            panel.add(fruit);
+            panel.add(tree);
+            panel.add(number);
+        } else if(order==1){
+            panel.add(number);
+            panel.add(fruit);
+            panel.add(tree);
+        }else{
+            panel.add(tree);
+            panel.add(number);
+            panel.add(fruit);
+        }
 
-        panel.add(fruit);
-      panel.add(tree);
-       panel.add(number);
         frame.pack();
     }
 
