@@ -11,38 +11,72 @@ public class SlotMachine implements ActionListener {
     JLabel fruit;
     JLabel tree;
     JLabel number;
+    JPanel panel1;
+    JPanel panel2;
+    JPanel panel3;
+
     public void run() throws MalformedURLException {
+        initializeDisplay();
+        updateDisplay();
+
+    }
+
+    public void initializeDisplay() throws MalformedURLException {
         JFrame frame = new JFrame();
-        JPanel panel = new JPanel();
-        frame.setVisible(true);
-        frame.add(panel);
+      //  frame.setSize(600, 700);
+        panel1 = new JPanel();
+        panel2 = new JPanel();
+        panel3 = new JPanel();
+        panel1.setSize(200, 200);
+        panel2.setSize(200, 200);
+        panel3.setSize(200, 200);
         JButton spinButton = new JButton();
-        panel.add(spinButton);
+        spinButton.setSize(70, 70);
         spinButton.setText("SPIN");
         spinButton.addActionListener(this);
-        String cherry="cherry.jpg";
-        String leaf="leaf.jpeg";
-        String seven="seven.jpeg";
-        fruit=createLabelImage(cherry);
-        tree=createLabelImage(leaf);
-        number=createLabelImage(seven);
-        Random slots= new Random();
-        int order=slots.nextInt(2);
-        if(order==0){
-            panel.add(fruit);
-            panel.add(tree);
-            panel.add(number);
-        } else if(order==1){
-            panel.add(number);
-            panel.add(fruit);
-            panel.add(tree);
-        }else{
-            panel.add(tree);
-            panel.add(number);
-            panel.add(fruit);
-        }
-
+        String cherry = "cherry.jpg";
+        String leaf = "leaf.jpeg";
+        String seven = "seven.jpeg";
+        fruit = createLabelImage(cherry);
+        tree = createLabelImage(leaf);
+        number = createLabelImage(seven);
+        frame.add(spinButton);
+        frame.add(panel1);
+        frame.add(panel2);
+        frame.add(panel3);
         frame.pack();
+        frame.setVisible(true);
+    }
+
+    public void updateDisplay() {
+        updatePanel1();
+        updatePanel2();
+        updatePanel3();
+        System.out.println("Display updated");
+    }
+
+    public void updatePanel1() {
+        updatePanel(panel1);
+    }
+
+    public void updatePanel2() {
+        updatePanel(panel2);
+    }
+
+    public void updatePanel3() {
+        updatePanel(panel3);
+    }
+
+    public void updatePanel(JPanel panel) {
+        Random reel = new Random();
+        int slot = reel.nextInt(3);
+        if (slot == 0) {
+            panel.add(tree);
+        } else if (slot == 1) {
+            panel.add(fruit);
+        } else {
+            panel.add(number);
+        }
     }
 
     private JLabel createLabelImage(String fileName) throws MalformedURLException {
@@ -53,11 +87,12 @@ public class SlotMachine implements ActionListener {
         }
         Icon icon = new ImageIcon(imageURL);
         JLabel imageLabel = new JLabel(icon);
+        imageLabel.setSize(100, 100);
         return imageLabel;
     }
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
-
+        updateDisplay();
     }
 }
