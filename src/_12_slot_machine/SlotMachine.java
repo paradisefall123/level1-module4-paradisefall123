@@ -11,25 +11,18 @@ public class SlotMachine implements ActionListener {
     JLabel fruit;
     JLabel tree;
     JLabel number;
-    JPanel panel1;
-    JPanel panel2;
-    JPanel panel3;
+    JPanel panel;
+    JFrame frame;
 
     public void run() throws MalformedURLException {
         initializeDisplay();
-        updateDisplay();
+        updatePanel1();
 
     }
 
     public void initializeDisplay() throws MalformedURLException {
-        JFrame frame = new JFrame();
-      //  frame.setSize(600, 700);
-        panel1 = new JPanel();
-        panel2 = new JPanel();
-        panel3 = new JPanel();
-        panel1.setSize(200, 200);
-        panel2.setSize(200, 200);
-        panel3.setSize(200, 200);
+        frame = new JFrame();
+        panel = new JPanel();
         JButton spinButton = new JButton();
         spinButton.setSize(70, 70);
         spinButton.setText("SPIN");
@@ -40,32 +33,21 @@ public class SlotMachine implements ActionListener {
         fruit = createLabelImage(cherry);
         tree = createLabelImage(leaf);
         number = createLabelImage(seven);
-        frame.add(spinButton);
-        frame.add(panel1);
-        frame.add(panel2);
-        frame.add(panel3);
+        panel.add(spinButton);
+        panel.add(tree);
+        panel.add(fruit);
+        panel.add(number);
+        frame.add(panel);
         frame.pack();
         frame.setVisible(true);
     }
 
-    public void updateDisplay() {
-        updatePanel1();
-        updatePanel2();
-        updatePanel3();
-        System.out.println("Display updated");
-    }
+
 
     public void updatePanel1() {
-        updatePanel(panel1);
+        updatePanel(panel);
     }
 
-    public void updatePanel2() {
-        updatePanel(panel2);
-    }
-
-    public void updatePanel3() {
-        updatePanel(panel3);
-    }
 
     public void updatePanel(JPanel panel) {
         Random reel = new Random();
@@ -93,6 +75,8 @@ public class SlotMachine implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
-        updateDisplay();
+        frame.dispose();
+        
+        updatePanel1();
     }
 }
