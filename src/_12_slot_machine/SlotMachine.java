@@ -8,15 +8,17 @@ import java.net.URL;
 import java.util.Random;
 
 public class SlotMachine implements ActionListener {
-    JLabel fruit;
-    JLabel tree;
-    JLabel number;
+    JLabel slot1;
+    JLabel slot2;
+    JLabel slot3;
     JPanel panel;
     JFrame frame;
+    String cherry = "cherry.jpg";
+    String leaf = "leaf.jpeg";
+    String seven = "seven.jpeg";
 
     public void run() throws MalformedURLException {
         initializeDisplay();
-        updatePanel1();
 
     }
 
@@ -27,37 +29,27 @@ public class SlotMachine implements ActionListener {
         spinButton.setSize(70, 70);
         spinButton.setText("SPIN");
         spinButton.addActionListener(this);
-        String cherry = "cherry.jpg";
-        String leaf = "leaf.jpeg";
-        String seven = "seven.jpeg";
-        fruit = createLabelImage(cherry);
-        tree = createLabelImage(leaf);
-        number = createLabelImage(seven);
+        slot1 = createLabelImage(cherry);
+        slot2 = createLabelImage(leaf);
+        slot3 = createLabelImage(seven);
         panel.add(spinButton);
-        panel.add(tree);
-        panel.add(fruit);
-        panel.add(number);
+        panel.add(slot2);
+        panel.add(slot1);
+        panel.add(slot3);
         frame.add(panel);
         frame.pack();
         frame.setVisible(true);
     }
 
-
-
-    public void updatePanel1() {
-        updatePanel(panel);
-    }
-
-
-    public void updatePanel(JPanel panel) {
+    public void updatePanel() throws MalformedURLException {
         Random reel = new Random();
         int slot = reel.nextInt(3);
         if (slot == 0) {
-            panel.add(tree);
+            slot1 = createLabelImage(leaf);
         } else if (slot == 1) {
-            panel.add(fruit);
+            slot1 = createLabelImage(cherry);
         } else {
-            panel.add(number);
+            slot1 = createLabelImage(seven);
         }
     }
 
@@ -75,8 +67,11 @@ public class SlotMachine implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
-        frame.dispose();
-        
-        updatePanel1();
+        try {
+            updatePanel();
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+
     }
 }

@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596911261335</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="I need to change the reels in slot machine.">
+      <created>1598121046922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598121046922</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,44 +113,47 @@
     <MESSAGE value="I need to finish slot machine.I need to adjust the images." />
     <MESSAGE value="I need to finish slot machine.I need to use the button." />
     <MESSAGE value="I need to finish slot machine.I need to use add the panels." />
-    <option name="LAST_COMMIT_MESSAGE" value="I need to finish slot machine.I need to use add the panels." />
+    <MESSAGE value="I need to change the reels in slot machine." />
+    <option name="LAST_COMMIT_MESSAGE" value="I need to change the reels in slot machine." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1595093278103">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="438" y="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.768@0.0.1366.768" timestamp="1595093278103" />
-    <state x="247" y="0" width="822" height="568" key="CommitChangelistDialog2" timestamp="1596911257556">
+    <state x="247" y="0" width="812" height="538" key="CommitChangelistDialog2" timestamp="1598121041660">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="247" y="0" width="822" height="568" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1596911257556" />
+    <state x="247" y="0" width="812" height="538" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1598121041660" />
     <state x="466" y="142" width="424" height="454" key="FileChooserDialogImpl" timestamp="1595092761056">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="466" y="142" width="424" height="454" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1595092761056" />
-    <state width="1327" height="80" key="GridCell.Tab.0.bottom" timestamp="1598120723918">
+    <state width="1327" height="2" key="GridCell.Tab.0.bottom" timestamp="1598725074141">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1327" height="80" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1598120723918" />
-    <state width="1327" height="80" key="GridCell.Tab.0.center" timestamp="1598120723914">
+    <state width="1327" height="2" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1598725074141" />
+    <state width="1327" height="2" key="GridCell.Tab.0.center" timestamp="1598725074111">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1327" height="80" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1598120723914" />
-    <state width="1327" height="80" key="GridCell.Tab.0.left" timestamp="1598120723911">
+    <state width="1327" height="2" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1598725074111" />
+    <state width="1327" height="2" key="GridCell.Tab.0.left" timestamp="1598725074109">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1327" height="80" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1598120723911" />
-    <state width="1327" height="80" key="GridCell.Tab.0.right" timestamp="1598120723916">
+    <state width="1327" height="2" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1598725074109" />
+    <state width="1327" height="2" key="GridCell.Tab.0.right" timestamp="1598725074132">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1327" height="80" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1598120723916" />
-    <state x="278" y="120" width="780" height="438" key="Vcs.Push.Dialog.v2" timestamp="1596911269807">
+    <state width="1327" height="2" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1598725074132" />
+    <state x="278" y="120" width="770" height="408" key="Vcs.Push.Dialog.v2" timestamp="1598121161296">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="120" width="780" height="438" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1596911269807" />
-    <state x="343" y="211" width="630" height="195" key="com.intellij.ide.util.TipDialog" timestamp="1598116241996">
+    <state x="278" y="120" width="770" height="408" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1598121161296" />
+    <state x="343" y="211" width="620" height="165" key="com.intellij.ide.util.TipDialog" timestamp="1598718094407">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="343" y="211" width="630" height="195" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1598116241996" />
+    <state x="343" y="211" width="620" height="165" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1598718094407" />
   </component>
 </project>
