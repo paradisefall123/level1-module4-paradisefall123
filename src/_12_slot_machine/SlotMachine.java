@@ -8,6 +8,9 @@ import java.net.URL;
 import java.util.Random;
 
 public class SlotMachine implements ActionListener {
+    Icon cherryIcon;
+    Icon leafIcon;
+    Icon sevenIcon;
     JLabel slot1;
     JLabel slot2;
     JLabel slot3;
@@ -29,9 +32,12 @@ public class SlotMachine implements ActionListener {
         spinButton.setSize(70, 70);
         spinButton.setText("SPIN");
         spinButton.addActionListener(this);
-        slot1 = createLabelImage(cherry);
-        slot2 = createLabelImage(leaf);
-        slot3 = createLabelImage(seven);
+        cherryIcon = createIcon(cherry);
+        leafIcon = createIcon(leaf);
+        sevenIcon = createIcon(seven);
+        slot1 = new JLabel(cherryIcon);
+        slot2 = new JLabel(leafIcon);
+        slot3 = new JLabel(sevenIcon);
         panel.add(spinButton);
         panel.add(slot2);
         panel.add(slot1);
@@ -41,15 +47,18 @@ public class SlotMachine implements ActionListener {
         frame.setVisible(true);
     }
 
-    public void updatePanel() throws MalformedURLException {
+    public void updatePanel(JLabel slot) throws MalformedURLException {
         Random reel = new Random();
-        int slot = reel.nextInt(3);
-        if (slot == 0) {
-            slot1 = createLabelImage(leaf);
-        } else if (slot == 1) {
-            slot1 = createLabelImage(cherry);
+        int nextSlot = reel.nextInt(3);
+        if (nextSlot == 0) {
+            slot.setIcon(leafIcon);
+            System.out.println("leaf");
+        } else if (nextSlot == 1) {
+            slot.setIcon(cherryIcon);
+            System.out.println("cherry");
         } else {
-            slot1 = createLabelImage(seven);
+            slot.setIcon(sevenIcon);
+            System.out.println("seven");
         }
     }
 
@@ -65,13 +74,31 @@ public class SlotMachine implements ActionListener {
         return imageLabel;
     }
 
+    private Icon createIcon(String fileName) {
+        URL imageURL = getClass().getResource(fileName);
+        if (imageURL == null) {
+            System.err.println("Could not find image " + fileName);
+            return null;
+        }
+
+        Icon icon = new ImageIcon(imageURL);
+        return icon;
+
+    }
+
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         try {
-            updatePanel();
+            updatePanel(slot1);
+            updatePanel(slot2);
+            updatePanel(slot3);
+            if (slot1.getIcon().equals(slot2.getIcon()) && slot2.getIcon().equals(slot3.getIcon())) {
+                JOptionPane.showMessageDialog(null, "WIN");
+            }
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
+
 
     }
 }
