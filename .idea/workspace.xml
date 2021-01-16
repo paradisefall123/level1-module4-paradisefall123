@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f92b64d4-be9c-455f-b2c4-81cf97ca872d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PracticeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Level1CodingExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Level1CodingExamRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,14 @@
       <recent name="$PROJECT_DIR$/src/_12_slot_machine" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PracticeTestRunner">
+  <component name="RunManager" selected="Application.Level1CodingExamRunner">
+    <configuration name="Level1CodingExamRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Level1CodingExamRunner" />
+      <module name="Level1-Module4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PracticeTestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PracticeTestRunner" />
       <module name="Level1-Module4" />
@@ -69,6 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Level1CodingExamRunner" />
         <item itemvalue="Application.PracticeTestRunner" />
         <item itemvalue="Application.SlotMachineRunner" />
       </list>
@@ -134,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599330558627</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Practice test finished.">
+      <created>1610173875213</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610173875216</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,15 +162,16 @@
     <MESSAGE value="I need to finish slot machine.I need to use add the panels." />
     <MESSAGE value="I need to change the reels in slot machine." />
     <MESSAGE value="I finished slot machine!" />
-    <option name="LAST_COMMIT_MESSAGE" value="I finished slot machine!" />
+    <MESSAGE value="Practice test finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice test finished." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="96" width="374" height="547" key="#com.intellij.ide.util.MemberChooser" timestamp="1610171862859">
+    <state x="491" y="96" width="374" height="547" key="#com.intellij.ide.util.MemberChooser" timestamp="1610822584910">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="491" y="96" width="374" height="547" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1610171862859" />
+    <state x="491" y="96" width="374" height="547" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1610822584910" />
     <state x="0" y="0" width="802" height="624" key="CommitChangelistDialog2" timestamp="1610173873280">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -162,26 +180,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="466" y="142" width="424" height="454" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1610173782609" />
-    <state width="1251" height="97" key="GridCell.Tab.0.bottom" timestamp="1610173713802">
+    <state width="1251" height="97" key="GridCell.Tab.0.bottom" timestamp="1610824329430">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1251" height="97" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1610173713802" />
-    <state width="1251" height="97" key="GridCell.Tab.0.center" timestamp="1610173713798">
+    <state width="1251" height="97" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1610824329430" />
+    <state width="1251" height="97" key="GridCell.Tab.0.center" timestamp="1610824329407">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1251" height="97" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1610173713798" />
-    <state width="1251" height="97" key="GridCell.Tab.0.left" timestamp="1610173713796">
+    <state width="1251" height="97" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1610824329407" />
+    <state width="1251" height="97" key="GridCell.Tab.0.left" timestamp="1610824329382">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1251" height="97" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1610173713796" />
-    <state width="1251" height="97" key="GridCell.Tab.0.right" timestamp="1610173713800">
+    <state width="1251" height="97" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1610824329382" />
+    <state width="1251" height="97" key="GridCell.Tab.0.right" timestamp="1610824329414">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1251" height="97" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1610173713800" />
-    <state x="343" y="211" width="670" height="315" key="com.intellij.ide.util.TipDialog" timestamp="1610169954518">
+    <state width="1251" height="97" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1610824329414" />
+    <state x="278" y="120" width="800" height="498" key="Vcs.Push.Dialog.v2" timestamp="1610173883565">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="343" y="211" width="670" height="315" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1610169954518" />
+    <state x="278" y="120" width="800" height="498" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1610173883565" />
+    <state x="343" y="211" width="670" height="315" key="com.intellij.ide.util.TipDialog" timestamp="1610819299799">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="343" y="211" width="670" height="315" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1610819299799" />
     <state x="0" y="0" width="1307" height="688" key="new project wizard" timestamp="1610170081371">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

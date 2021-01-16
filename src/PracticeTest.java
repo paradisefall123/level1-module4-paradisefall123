@@ -12,6 +12,8 @@ public class PracticeTest implements ActionListener {
 
     void run() {
         frame = new JFrame();
+
+
         panel = new JPanel();
         label = new JLabel();
         submit = new JButton();
